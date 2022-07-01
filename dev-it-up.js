@@ -6,6 +6,7 @@
 
 // add dev css in disabled state
 var linkDev = document.createElement('link');
+linkDev.type = 'text/css'
 linkDev.href = 'https://git.iddkingsonline.com/designsystem-dev/css/main.css'
 linkDev.rel ='stylesheet';
 linkDev.id = 'devcss';
@@ -13,7 +14,7 @@ linkDev.disabled = true;
 document.head.appendChild(linkDev);
 
 var linkLive = document.querySelector('[href="https://git.iddkingsonline.com/designsystem/css/main.css"]');
-var linkOld = document.querySelector('[href="https://git.iddkingsonline.com/designsystem/base.css"]');
+
 // upon status change
 chrome.storage.onChanged.addListener(() => {
   chrome.storage.sync.get('status', function(data) {
@@ -21,8 +22,7 @@ chrome.storage.onChanged.addListener(() => {
     current === 'inactive'
       // if status is inactive disable dev and activate live css
       ? ( linkDev.disabled = true,
-          linkLive.disabled = false,
-          console.log("foo"))
+          linkLive.disabled = false)
       // if status is active disable live and activate dev css
       : ( linkLive.disabled = true,
           linkDev.disabled = false);
