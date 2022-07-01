@@ -1,0 +1,20 @@
+{
+  "name": "Dev it up 3.0",
+  "description": "Switches from live to dev CSS",
+  "version": "3.0",
+  "background": {
+     "service_worker": "background.js"
+   },
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "action": {
+      "default_title": "Click to toggle extension",
+      "default_icon": "images/icon-change-inactive-16.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://keats.kcl.ac.uk/*"],
+      "js": ["dev-it-up.js"]
+    }
+  ],
+  "manifest_version": 3
+}
