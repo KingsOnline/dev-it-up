@@ -7,7 +7,7 @@
    },
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "action": {
-      "default_title": "Click to toggle extension",
+      "default_title": "Dev it up",
       "default_icon": "images/icon-change-inactive-16.png"
   },
   "content_scripts": [
