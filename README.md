@@ -19,16 +19,15 @@ Navigate to the zipped folder using the File explorer and select **Extract all..
 
 ### Step 3. Install the Chrome extension
 
-1. Return to the browser and open the [settings page](chrome://settings/) (or copy chrome://settings/ to the address bar), selecting **Extensions** from the left hand menu.
+1. Return to the browser and open the [settings page](chrome://settings/) (or copy chrome://settings/ to the address bar), selecting **Extensions**
 2. Toggle on **Developer mode** in the top right of the toolbar
 3. Select the **Load unpacked** button from the button group
-4. Locate the folder saved in Step 2 and **Select folder**
-
-The dev-it-up extension should now appear in its own card within the extensions panel.
+4. Locate the folder saved in Step 2 and **Select folder** and dev-it-up extension will now appear in its own card within the extensions panel.
+5. To the right of the address bar, selecting the Extentions puzzle piece icon will allow you to pin the dev-it-up extension
 
 ### Step 4. Test it out!
 
-Upon successful installation of the extension, the dev-it-up icon should appear to the right of the address bar. Click the icon to toggle the extension on and off.
+Upon successful installation of the extension, the dev-it-up icon will appear to the right of the address bar. Click the icon to toggle the extension on and off.
 
 The icon will display as grey when inactive and red when the extension is running.
 
