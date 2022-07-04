@@ -8,7 +8,7 @@
 var linkDev = document.createElement('link');
 linkDev.type = 'text/css'
 linkDev.href = 'https://git.iddkingsonline.com/designsystem-dev/css/main.css'
-linkDev.rel ='stylesheet';
+linkDev.rel = 'stylesheet';
 linkDev.id = 'devcss';
 linkDev.disabled = true;
 document.head.appendChild(linkDev);
