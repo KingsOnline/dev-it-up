@@ -32,3 +32,7 @@ Upon successful installation of the extension, the dev-it-up icon will appear to
 The icon will display as grey when inactive and red when the extension is running.
 
 The extension has access to all KEATS pages. If the page you wish to view was already loaded prior to the installation of the extension, you may need to perform a hard refresh before activating the extension. In Windows, the shortcut for this is Control + F5 and on a Mac, the shortcut is Command + Shift + R. If the extension is already active when opening a KEATS page, you may need to toggle the extension off and on again to see the effects.
+
+## Limitations
+
+The extension works by switching CSS files only. The development JS files will not be introduced and any visual changes or interatcions that rely on JS updates will not be available.
